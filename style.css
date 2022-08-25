@@ -1,0 +1,162 @@
+*{
+
+  margin: 0%;
+  padding: 0%;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #29537a;
+  text-align: left;
+  background-color: whitesmoke;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.text-bootstrap {
+    color: #97c93e !important;
+  }
+  
+  .btn-bootstrap{
+    background-color: #97c93e;
+    color: white;
+  }
+  
+  .btn-bootstrap:hover {
+    background-color: #82ad36;
+  }
+  
+  #header img {
+    width: 80px;
+  }
+  
+  #main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+  
+  #carousel {
+    position: relative;
+  }
+
+.hr { 
+  padding: 6px;
+  margin: 6px;
+}
+  
+  #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+  
+  #place-time {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  #place-time img {
+    max-width: 100%;
+  }
+  
+
+  h3, .card-title {
+    color: #343a40;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .card{
+      width: 98%;
+      margin: 4px;
+      padding: 4px;
+     
+  }
+  iframe{
+    width: 100%;
+    height: 30vh;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  .top-personajes_titulo {
+    color: black;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom:15px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+
+ /* Style all font awesome icons */
+ 
+
+ 
+.ext-center center-block a:hover{
+color: #82ad36;
+font-size: 50px;
+}
+  /* Fin Style all font awesome icons */
+
+
+  #footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  }
+  
+  #footer a {
+    color: white;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    #carousel .overlay {
+      display: none;
+    }
+    .top-personajes_titulo {
+      color: black;
+      font-size: 1.6em;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom:15px;
+      background-color: whitesmoke;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+}
+  
+  }
+
+/* colores iconos redes sociales */
+
+.center-block {
+  background-color: whitesmoke;
+}
